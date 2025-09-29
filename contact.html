@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Travelify to start your minimalist Korean journey.">
+    <title>Travelify - Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="tstyle.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <p>Travelify</p>
+        </div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li class="nav-link"><a href="tweb.html">Home</a></li>
+                <li class="nav-link"><a href="about.html">About</a></li>
+                <li class="nav-link"><a href="tweb.html#Accomodation">Accomodation</a></li>
+                <li class="nav-link"><a href="tweb.html#Food">Food</a></li>
+                <li class="nav-link"><a href="tweb.html#Destinations">Destinations</a></li>
+                <li class="nav-link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-page-content" style="padding: 80px 10%; min-height: 70vh; max-width: 900px; margin: 0 auto;">
+        <h1 style="font-size: 2.5em; margin-bottom: 10px;">Get in Touch</h1>
+        <h3 style="color: #666; margin-bottom: 40px;">Reach out to start planning your perfect Korean adventure!</h3>
+
+        <form style="display: flex; flex-direction: column; max-width: 450px; gap: 15px; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            <label for="name" style="font-weight: bold;">Name:</label>
+            <input type="text" id="name" name="name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+
+            <label for="email" style="font-weight: bold;">Email:</label>
+            <input type="email" id="email" name="email" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+
+            <label style="font-weight: bold;">Gender:</label>
+            <div style="display: flex; gap: 20px;">
+                <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other"><label for="other">Other</label>
+            </div>
+
+            <label for="country" style="font-weight: bold;">Country Selection:</label>
+            <select id="country" name="country" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                <option value="">-- Select Your Country --</option>
+                <option value="korea">South Korea</option>
+                <option value="usa">USA</option>
+                <option value="usa">India</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                </select>
+
+            <label for="message" style="font-weight: bold;">Message:</label>
+            <textarea id="message" name="message" rows="5" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+
+            <button type="submit" class="btn" style="align-self: flex-start; margin-top: 10px;">Send Message</button>
+        </form>
+
+        <div style="margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee;">
+            <h2 style="font-size: 1.8em; margin-bottom: 15px;">Our Details</h2>
+            <p style="margin-bottom: 5px;">Email:<i>contact@travelify.com</i></p>
+            <p>Phone: +82 2-1234-5678 (Seoul Office)</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-icons-row">
+            <p>Connect with us</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-col footer-branding">
+                <div class="logo"><p>Travelify</p></div>
+                <p>Weaving your dreams into unforgettable adventures. Your journey to Korea begins here.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html#Destinations">Destinations</a></li>
+                    <li><a href="index.html#Accomodation">Accomodation</a></li>
+                    <li><a href="index.html#Food">Food</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Travelify. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
