@@ -134,6 +134,23 @@ input{
 }
 
 /*About css*/
+.about1{width :100%;
+ padding: 5px 15%;
+ background-color: white;
+ font-family: "Crimson Pro", sans-serif;
+ font-size: 30px;
+ font-weight: 200;
+ word-spacing: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ row-gap: 20px;
+ background-image: url('/images/.jpg');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ display:flex;
+ flex-direction: column;}
 .about{
  width :100%;
  padding: 5px 15%;
