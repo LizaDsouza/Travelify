@@ -268,7 +268,7 @@ input{
   height:80vh;
   padding: 50px 15%;
   background-color: #ffffff;
-  background-image: url('/images/Kfo.webp');
+  background-image: url('./images/Kfo.webp');
   background-repeat: no-repeat;
   display:flex;
   align-items: center;
